@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>FootFit Portal</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; }
+    header { background:#1f77b4; color:white; padding:12px 20px; display:flex; align-items:center; }
+    header img { height:40px; margin-right:12px; }
+    .wrap { padding: 12px; }
+    iframe { width:100%; height:80vh; border: none; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i.imgur.com/TKQF3xP.png" alt="logo">
+    <h2 style="margin:0;">FootFit Analyzer — Portal</h2>
+  </header>
+  <div class="wrap">
+    <p>Below is the embedded Streamlit app (running locally). If you don't see it, start the Streamlit app first.</p>
+    <iframe src="{{ streamlit_url }}"></iframe>
+  </div>
+</body>
+</html>
