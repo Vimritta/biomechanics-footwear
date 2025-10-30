@@ -1,0 +1,10 @@
+venv/
+.env
+*.sqlite3
+__pycache__/
+*.pyc
+data/
+mnt/
+*.xlsx
+*.csv
+saved_recommendations.csv
